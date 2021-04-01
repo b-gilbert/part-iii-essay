@@ -8,7 +8,7 @@ DATA_PATH = "PATH/TO/DATA/FOLDER"
 
 ################################################################################
 # PART III ESSAY - UNMEASURED CONFOUNDING IN HIGH-DIMENSIONAL DATA
-# - SIMULATIONS
+# - CASE STUDY
 # - FILE N.7
 ################################################################################
 
