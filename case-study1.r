@@ -3,8 +3,8 @@
 library(MASS)
 library(glmnet)
 
-EXPORT_PATH = "PATH/TO/FILE/"
-DATA_PATH = "PATH/TO/DATA/FOLDER"
+EXPORT_PATH = "PATH/TO/EXPORT/FOLDER/"
+DATA_PATH = "PATH/TO/DATA/FOLDER/"
 
 ################################################################################
 # PART III ESSAY - UNMEASURED CONFOUNDING IN HIGH-DIMENSIONAL DATA
@@ -30,7 +30,7 @@ df <- read.csv(paste(DATA_PATH, "data.csv", sep=""))[,-1]
 Y_dataframe <- 1000 * (df$CR2001V / df$DE1001V)
 X_dataframe <- df[ , -which(names(df) %in% c("NAME", "CR2001V", "CR2009V", "CR2010I", "CR2011V", "CR2011I"))]
 
-# filter out colinear columns in the design matrix
+# filter out constant columns in the design matrix
 X_dataframe <- Filter(function(x) sd(x, na.rm = TRUE) != 0, X_dataframe)
 
 # use matrix representation for Y and X
