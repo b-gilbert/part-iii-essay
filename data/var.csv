@@ -18,19 +18,19 @@ DE1025I,Proportion of total population aged 55-64
 DE1025V,"Population on the 1st of January, 55-64 years, total"
 DE1026V,"Population on the 1st of January, 55-64 years, male"
 DE1027V,"Population on the 1st of January, 55-64 years, female"
-DE1028I,Proportion of population aged 65-74 years 
+DE1028I,Proportion of population aged 65-74 years
 DE1028V,"Population on the 1st of January, 65-74 years, total"
 DE1029V,"Population on the 1st of January, 65-74 years, male"
 DE1030V,"Population on the 1st of January, 65-74 years, female"
-DE1040I,Proportion of population aged 0-4 years 
+DE1040I,Proportion of population aged 0-4 years
 DE1040V,"Population on the 1st of January, 0-4 years, total"
 DE1041V,"Population on the 1st of January, 0-4 years, male"
 DE1042V,"Population on the 1st of January, 0-4 years, female"
-DE1046I,Proportion of population aged 15-19 years 
+DE1046I,Proportion of population aged 15-19 years
 DE1046V,"Population on the 1st of January, 15-19 years, total"
 DE1047V,"Population on the 1st of January, 15-19 years, male"
 DE1048V,"Population on the 1st of January, 15-19 years, female"
-DE1049I,Proportion of population aged 20-24 years 
+DE1049I,Proportion of population aged 20-24 years
 DE1049V,"Population on the 1st of January, 20-24 years, total"
 DE1050V,"Population on the 1st of January, 20-24 years, male"
 DE1051V,"Population on the 1st of January, 20-24 years, female"
@@ -49,15 +49,15 @@ DE1061I,Population change over 1 year
 DE1061V,"Population on the 1st of January, 35-44 years, total"
 DE1062V,"Population on the 1st of January, 35-44 years, male"
 DE1063V,"Population on the 1st of January, 35-44 years, female"
-DE1064I,Proportion of population aged 45-54 years 
+DE1064I,Proportion of population aged 45-54 years
 DE1064V,"Population on the 1st of January, 45-54 years, total"
 DE1065V,"Population on the 1st of January, 45-54 years, male"
 DE1066V,"Population on the 1st of January, 45-54 years, female"
-DE1073I,Proportion of population aged 25-34 years 
+DE1073I,Proportion of population aged 25-34 years
 DE1073V,Median population age
 DE1074V,"Population on the 1st of January, 5-9 years, total"
 DE1075V,"Population on the 1st of January, 5-9 years, male"
-DE1076I,Proportion of population aged 35-44 years 
+DE1076I,Proportion of population aged 35-44 years
 DE1076V,"Population on the 1st of January, 5-9 years, female"
 DE1077V,"Population on the 1st of January, 10-14 years, total"
 DE1078V,"Population on the 1st of January, 10-14 years, male"
@@ -115,7 +115,7 @@ EC1180V,"Persons employed, 55-64, total"
 EC1181V,"Persons employed, 55-64, male"
 EC1182V,"Persons employed, 55-64, female"
 EC2008I,Proportion of employment in agriculture fishery 
-EC2008V,"Employment in agriculture, fishery (NACE Rev. 2: A) "
+EC2008V,"Employment in agriculture, fishery (NACE Rev. 2: A)"
 EC2009I,Prop. of employment in industries (NACE Rev.1.1 C-E)
 EC2009V,"Employment in mining, manufacturing, energy (NACE Rev. 2: B to E)"
 EC2020V,Total employment (work place based)
@@ -235,3 +235,5 @@ TT1065V,People commuting out of the city
 TT1079V,Length of bicycle network (dedicated cycle paths and lanes)
 TT1080V,Cost of a combined monthly ticket (all modes of public transport) for 5-10 km in the central zone
 TT1081V,Cost of a taxi ride of 5 km to the centre at day time
+LAT,Latitude
+LONG,Longitude
